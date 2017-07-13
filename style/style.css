@@ -1,0 +1,266 @@
+html body{
+  font-size: 100%;
+  font-family: 'Open sans', sans-serif;
+  background: #ffffff;
+  margin: 0px;
+
+}
+p, ul li {
+  margin: 0px;
+  font-size: 14px;
+}
+h1 h2 h3 h4 {
+  font-family: sans-serif;
+  font-size: 14px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+ul, label{
+  padding: 0px;
+  margin: 0px;
+}
+
+.header-right{
+  float: left;
+  background-color: inherit;
+  width: 200px;
+  /*height: 50px;*/
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.header-right h1 {
+  color: black;
+  text-decoration: none;
+  margin: 10px 0px 10px 5px;
+}
+.header-right h1 span {
+  color: #0a9dbd;
+  border: 2px solid;
+
+}
+
+.header-left{
+  float: right;
+  background-color: inherit;
+  margin:0px;
+  padding: 0px;
+  height: 40px;
+  width:500px;
+}
+.header-left > .sign-in {
+  color: white;
+  background-color: rgb(255, 0, 0);
+  border-color: red;
+  border-radius: 0px;
+  height: 40px;
+  width: 200px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  text-decoration: none;
+  font-family: inherit;
+  text-transform: uppercase;
+}
+.header-left >.contact {
+  float: right;
+  display: -webkit-inline-box;
+}
+.page-header{
+  background-color: inherit;
+  margin: 0px 0px 0px;
+  overflow: hidden;
+  padding: 0px;
+  height: 80px;
+}
+.header-left > .contact ul {
+  text-decoration: none;
+  display: -webkit-inline-box;
+  list-style: none;
+  margin: 16px 12px 0px 0px;
+  overflow: hidden;
+}
+
+.header-left > .contact ul li {
+  font-family: inherit;
+  font-size: 28px;
+  font-weight: 500;
+}
+.header-left > .contact ul li:nth-child(2){
+  color: red;
+}
+
+.navbar-default {
+  background: white;
+  border-color: white;
+  margin: 0px 0px 0px -1px;
+  border-radius: 0px;
+}
+
+.navbar-default .navbar-nav> li >a {
+  color: #000;
+  text-transform: uppercase;
+  padding: 22px;
+}
+
+.navbar-default .navbar-nav > .active > a {
+  color: black;
+  background: #0a9dbd;
+  padding: 22px;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #ffd;
+  background: #09adbd;
+}
+
+.hvr{
+  vertical-align: middle;
+  transition-property: color;
+  transition-duration: 0.8s;
+}
+
+.hvr:hover{
+  color: white;
+}
+.hvr:active{
+  color: white;
+}
+
+
+.banner{
+  background: url(../resources/banner.jpg) no-repeat 0px 0px;
+  background-size: cover;
+  min-height: 700px;
+  position: relative;
+  text-align: center;
+  padding: 130px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+
+.banner h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  font-size: 50px;
+  display: inline;
+  width: 80%;
+
+}
+
+
+.banner span {
+  font-size: 50px;
+  width: 20%;
+  color: #05d2ff;
+  display: inline;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.banner p {
+  color: white;
+  font-size: xx-large;
+  text-transform: capitalize;
+}
+.banner-grid0{
+  padding: 183px 0px 0px 0px;
+}
+.banner-grid0 i {
+  font-size: -webkit-xxx-large;
+  color: white;
+}
+.banner-grid0 h4 {
+  color: white;
+  text-transform: capitalize;
+}
+
+.banner-one{
+  padding: 70px 0px 0px 0px;
+}
+
+.img-one > img {
+  padding: 28px;
+  height: 100%;
+  width:100%;
+  display: inline;
+  margin: 45px 0px 0px 0px;
+}
+
+.banner-right {
+  margin: 28px 0px 0px 0px;
+  padding-left: 100px;
+  display: inline-block;
+}
+ .banner-right h3, .banner-left h3 {
+   color: black;
+   font-size: 3em;
+   text-transform: uppercase;
+   padding: 0px 0px 10px 0px;
+   position: relative;
+ }
+ .banner-right h3:after{
+   height:30px;
+   width: 30%;
+   color:red;
+   content: '______________________________';
+   position: absolute;
+   left: 0%;
+   bottom: 0%;
+ }
+
+ .banner-right span, .banner-left span {
+   font-size: 20px;
+   display: inline-block;
+   width: 30%;
+   padding: 25px 0px 0px 0px;
+ }
+.banner-right p, .banner-left p {
+  display: inline-block;
+    font-size: 22px;
+    text-transform: capitalize;
+    width: 69%;
+}
+
+.img-two {
+  display: inline-block;
+  width: 30%;
+  margin: 69px 0px 0px 100px;
+}
+
+.img-two img {
+  height: 250px;
+  width: 398px;
+}
+
+.banner-left {
+  display: inline-block;
+  width: 62%;
+  text-align: right;
+  padding: 0px 46px 0px 0px;
+}
+.banner-left h3:after{
+  height:30px;
+  width: 30%;
+  color:red;
+  content: '______________________________';
+  position: absolute;
+  left: 34%;
+  bottom: 0%;
+}
+
+footer {
+  margin: 100px 0px 0px 0px;
+
+}
+.footer i {
+  font-size: 40px;
+}
+.footer{text-align: center;
+  background: black;
+  height: 130px;
+  display: inherit;
+}
+.footer > .col-md-3 {
+    width: 25%;
+    margin-top: 33px;
+    color: white;
+}
