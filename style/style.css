@@ -2,7 +2,7 @@ body {
     font-family: 'Alegreya Sans';font-size: 22px;
     margin: 0px 0px 0px 0px;
 }
-
+/*header-style*/
 .header h1{
   margin-top: 10px;
   margin-bottom: 0px;
@@ -12,6 +12,8 @@ body {
 .header span{
   color: cornflowerblue;
 }
+/*header style end*/
+/*navbar*/
 .container-fluid{
   padding: 0px;
 }
@@ -35,7 +37,8 @@ body {
   background-color: cornflowerblue;
   color: white;
 }
-
+/*navbar end*/
+/*caurosel*/
 .carousel-control .fa-angle-left, .carousel-control .icon-prev ,.carousel-control .fa-angle-right, .carousel-control .icon-next {
     left: 50%;
     margin-left: -10px;
@@ -47,7 +50,8 @@ body {
     display: inline-block;
     margin-top: 10px;
 }
-
+/*caurosel end*/
+/*banner style*/
 .container> .col-sm-8 , .container .col-sm-4 {
   height: 300px;
 
@@ -62,6 +66,8 @@ body {
  font-weight: bold;
  font-size: 2em;
 }
+/*banner style end*/
+/*footer style*/
 .footer > .col-sm-3 {
   text-align : center;
   font-size: 1.1em;
@@ -85,7 +91,9 @@ body {
 
     }
 }
+/*footer end*/
 
+/*tab styleing*/
 .tabcontent > .items{
   margin-top: 15px;
   height: 400px;
@@ -103,3 +111,4 @@ body {
   width:80%;
   height:250px;
 }
+/*tab end*/
